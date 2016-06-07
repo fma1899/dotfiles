@@ -6,7 +6,8 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="bullet-train"
-
+DEFAULT_USER="flo"
+export TERM="xterm-256color"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
