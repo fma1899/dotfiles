@@ -122,6 +122,8 @@ bindsym $mod+Shift+0 move container to workspace 10
 # assign default workspaces for applications
 assign [class="google-chrome" instance="google-chrome"] $workspace1
 assign [class="google-chrome" instance="^crx_"] $workspace3
+no_focus [class="google-chrome" instance="^crx_"]
+for_window [class="google-chrome" instance="^crx_"] floating enable
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
