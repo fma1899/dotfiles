@@ -1,5 +1,5 @@
 alias sinst="sudo apt-get install"
 alias act="/home/flo/dev/typesafe-activator/activator-1.3.10-minimal/bin/activator"
-alias i3conf="vim ~.config/i3/conf"
+alias i3conf="vim ~/.config/i3/conf"
 alias ll="ls -lrth"
-alias repo="/home/flo/git-repos/"
+alias repo="/home/flo/repos/"
