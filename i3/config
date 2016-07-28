@@ -217,3 +217,6 @@ exec google-chrome
 
 # run network manager applet
 exec nm-applet
+
+# change layout
+exec_always --no-startup-id "xmodmap /home/flo/.Xmodmap"
