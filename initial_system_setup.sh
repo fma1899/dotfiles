@@ -18,6 +18,7 @@ sudo apt-get update
 sudo apt-get --allow-unauthenticated install sur5r-keyring
 sudo apt-get update
 sudo apt-get install i3 i3blocks
+cp -f ~/repos/dotfiles/i3/config ~/.config/i3/config
 # install bullet-train theme
 wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme && mkdir -p ~/.oh-my-zsh/custom/themes && mv bullet-train.zsh-theme ~/.oh-my-zsh/custom/themes/
 # powerline fonts
