@@ -54,6 +54,9 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+# move workspace to other output
+bindsym $mod+m move workspace to output left
+
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
