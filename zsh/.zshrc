@@ -50,11 +50,11 @@ export TERM="xterm-256color"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract docker docker-compose mvn python common-aliases)
+plugins=(git git-extras extract dirhistory docker docker-compose history mvn pip pyenv python common-aliases scala sbt sudo wd)
 
 # User configuration
-
-  export PATH="/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+export GOPATH=/home/florian/gopath
+  export PATH="/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:\$GOPATH:\$GOPATH/bin:/usr/local/texlive/2016/bin/x86_64-linux"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

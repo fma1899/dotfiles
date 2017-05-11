@@ -1,5 +1,7 @@
 alias sinst="sudo apt-get install"
-alias act="/home/flo/dev/typesafe-activator/activator-1.3.10-minimal/bin/activator"
+alias act="/opt/activator/bin/activator"
 alias i3conf="vim ~/.config/i3/config"
 alias ll="ls -lrth"
 alias repo="/home/flo/repos/"
+alias beamer="xrandr --addmode DP1-2 1920x1080"
+alias nmr="service network-manager restart"
