@@ -50,7 +50,7 @@ export TERM="xterm-256color"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras extract dirhistory docker docker-compose history mvn pip pyenv python common-aliases scala sbt sudo wd)
+plugins=(git git-extras extract dirhistory docker docker-compose history mvn pip pyenv python common-aliases scala sbt sprunge sudo wd)
 
 # User configuration
 export GOPATH=/home/florian/gopath
@@ -61,7 +61,7 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
+export EDITOR='vim'
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -81,5 +81,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="$EDITOR ~/.zshrc"
+alias zshsource='source ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
