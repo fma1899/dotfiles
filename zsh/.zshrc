@@ -86,6 +86,9 @@ zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
+# use ctrl+backspace to delete entire word
+bindkey '^H' backward-kill-word
+
 alias zshconfig="$EDITOR ~/.zshrc"
 alias zshsource='source ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
