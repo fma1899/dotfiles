@@ -50,7 +50,7 @@ export TERM="xterm-256color"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras extract dirhistory docker docker-compose history mvn pip pyenv python common-aliases scala sbt sprunge sudo wd command-not-found zsh-syntax-highlighting zsh-history-substring-search)
+plugins=(git git-extras extract dirhistory docker docker-compose history mvn pip pyenv python common-aliases sudo wd command-not-found zsh-syntax-highlighting zsh-history-substring-search ubuntu z ssh-agent)
 
 # User configuration
 export GOPATH=/home/florian/gopath
