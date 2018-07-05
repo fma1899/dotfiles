@@ -89,6 +89,9 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 # use ctrl+backspace to delete entire word
 bindkey '^H' backward-kill-word
 
+# load z script
+source ~/.oh-my-zsh/plugins/z/z.sh
+
 alias zshconfig="$EDITOR ~/.zshrc"
 alias zshsource='source ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
